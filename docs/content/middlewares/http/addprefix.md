@@ -1,4 +1,10 @@
----
+http:
+  middleware:
+    custom-headers:
+      headers:
+        customRequestHeaders:
+          X-Forwarded-Host: "n8n.vibrerelax.com"
+          X-Forwarded-Proto: "https"---
 title: "Traefik AddPrefix Documentation"
 description: "Learn how to implement the HTTP AddPrefix middleware in Traefik Proxy to updates request paths before being forwarded. Read the technical documentation."
 ---
